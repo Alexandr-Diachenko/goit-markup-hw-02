@@ -1,0 +1,64 @@
+/* body */
+body {
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+}
+
+/* header */
+.site-nav a {
+color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+   color:#2196F3 
+}
+a.current {
+    color: #2196F3;
+}
+
+ /* навигация-контакты */
+.cont-nav a {
+color: #757575;
+}
+
+.cont-nav a:hover,
+.cont-nav a:focus{
+  color:#2196F3   
+}
+
+.logo {
+    color: #2196F3;
+}
+.logo-black {
+    color: #000000;
+}
+
+    
+/* убирает точки в списках */
+.list {
+    list-style: none;
+}
+ /* скрывает заголовок */
+ .visually-hidden {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden; 
+ }
+
+
+/* основной цвет текста # 757575 */
+/* дополнительный цвет текста # 212121 */
+/* цвет текста заголовка # FFFFFF */
+/* акцент # 2196F3 */
+/* цвет лого шапка # 2196F3 + # 000000  */
+/* цвет лого подвал # 2196F3 + # FFFFFF  */
+/* цвет фона шапки #FFFFFF  */
