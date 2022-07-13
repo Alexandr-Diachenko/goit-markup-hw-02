@@ -1,59 +1,111 @@
 /* body */
 body {
-    color: #757575;
-    font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
+	color: #757575;
+	font-family: Roboto, sans-serif;
+	background-color: #ffffff;
 }
 
 /* header */
 .site-nav a {
-color: #212121;
+	color: #212121;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-   color:#2196F3 
+	color: #2196f3;
 }
 a.current {
-    color: #2196F3;
+	color: #2196f3;
 }
 
- /* навигация-контакты */
+/* навигация-контакты */
 .cont-nav a {
-color: #757575;
+	color: #757575;
 }
 
 .cont-nav a:hover,
-.cont-nav a:focus{
-  color:#2196F3   
+.cont-nav a:focus {
+	color: #2196f3;
 }
 
 .logo {
-    color: #2196F3;
+	color: #2196f3;
 }
 .logo-black {
-    color: #000000;
+	color: #000000;
 }
 
-    
 /* убирает точки в списках */
 .list {
-    list-style: none;
+	list-style: none;
 }
- /* скрывает заголовок */
- .visually-hidden {
-    position: absolute; 
-    width: 1px; 
-    height: 1px; 
-    margin: -1px; 
-    border: 0; 
-    padding: 0; 
-    white-space: nowrap; 
-    clip-path: inset(100%); 
-    clip: rect(0 0 0 0); 
-    overflow: hidden; 
- }
 
+/* hero */
+.hero {
+	background-color: #2F303A;
+}
+.hero-title {
+	font-family: Roboto, sans-serif;
+	color: #FFFFFF;;
+}
+.hero-button {
+	background-color: #2196F3;
+	color: #FFFFFF
+}
+
+
+/* Наши приимущества */
+.features-title {
+	color: #212121;
+}
+
+
+/* Чем мы занимаемся */
+.activity-title {
+	color: #212121;
+}
+
+
+/* Наша команда */
+.team {
+	background-color: #F5F4FA;
+}
+.team-title {
+	color:#212121;
+}
+
+.team-name {
+	color:#212121;
+}
+
+/* Footer */
+.footer {
+	background-color: #2F303A;
+	color: #FFFFFF;	
+}
+
+.foter-logo {
+	color: #FFFFFF;
+}
+
+.logo-blue {
+	color: #2196F3;
+}
+
+
+/* скрывает заголовок */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
 
 /* основной цвет текста # 757575 */
 /* дополнительный цвет текста # 212121 */
