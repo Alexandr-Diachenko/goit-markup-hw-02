@@ -153,6 +153,10 @@ body {
 	background-color: var(--background-color-h-f);
 }
 
+.footer-adress {
+	font-style: normal;
+}
+
 .foter-logo {
 	color: var(--additional-color);
 	text-decoration: none;
@@ -169,7 +173,6 @@ body {
 
 .adres-link {
 	text-decoration: none;
-	font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -178,7 +181,6 @@ body {
 
 .footer-tel, .footer-mail {
 	text-decoration: none;
-	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
