@@ -34,10 +34,6 @@ body {
 	color: var(--accent-color);
 }
 
-.header-nav-link:focus {
-	color:var(--additional-color);
-}
-
 .current {
 	color: var(--accent-color);
 }
@@ -54,9 +50,6 @@ body {
 
 .nav-contact:hover {
 	color: var(--accent-color);
-}
-.nav-contact:focus {
-	color: var(--additional-color);
 }
 
 .logo {
@@ -187,11 +180,13 @@ body {
 	color: var(--tel-mail-color);
 }
 
+.footer-list:hover {
+	color: var(--accent-color);
+}
 /* -------ПОРТФОЛИО СПИСОК КНОПОК------- */
 
 .portfolio-btn {
 background-color: var(--background-color-team);
-font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -200,7 +195,13 @@ cursor: pointer;
 border-radius: 4px;
 color: var(--second-color);
 }
-.portfolio-btn:hover,:focus {
+.accent-btn {
+	color: var(--accent-color);
+}
+
+.portfolio-btn
+:hover,
+:focus {
 	background-color: var(--accent-color);
 	color: var(--additional-color);
 }
@@ -215,7 +216,7 @@ color: var(--second-color)
 
 .works-text {
 	font-size: 16px;
-	line-height: 1.9
+	line-height: 1.9;
 	letter-spacing: 0.03em;
 }
 
@@ -235,6 +236,18 @@ color: var(--second-color)
 /* убирает точки в списках */
 .list {
 	list-style: none;
+}
+
+
+
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 
