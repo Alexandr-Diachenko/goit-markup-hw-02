@@ -34,6 +34,11 @@ body {
 	color: var(--accent-color);
 }
 
+.header-nav-link:focus {
+	color: var(--accent-color);
+	background-color: var(--additional-color);
+}
+
 .current {
 	color: var(--accent-color);
 }
@@ -51,6 +56,11 @@ body {
 .nav-contact:hover {
 	color: var(--accent-color);
 }
+.nav-contact:focus {
+	color: var(--accent-color);
+	background-color: var(--additional-color);
+}
+
 
 .logo {
 	color: var(--accent-color);
@@ -196,7 +206,7 @@ border-radius: 4px;
 color: var(--second-color);
 }
 .accent-btn {
-	color: var(--accent-color);
+	background-color: var(--accent-color);
 }
 
 .portfolio-btn
