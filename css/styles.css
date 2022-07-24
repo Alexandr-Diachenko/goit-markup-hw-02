@@ -55,11 +55,13 @@ body {
 border: 1px solid var(--header-border-color);
 }
 
+.header-nav {
+	margin-right: auto;
+}
+
 .site-nav {
 	display: flex;
 	padding-left: 0px;
-	margin-left: 93px;
-	
 }
 
 .site-nav-item:not(:last-child) {
@@ -96,8 +98,6 @@ border: 1px solid var(--header-border-color);
 .cont-nav {
 	display: flex;
 	padding-left: 0px;
-	margin-left: auto;
-
 }
 
 .cont-nav-item:not(:last-child) {
@@ -137,6 +137,7 @@ border: 1px solid var(--header-border-color);
 	display: block;
 
 	margin-left: 0px;
+	margin-right: 93px;
 	padding-top: 24px;
 	padding-bottom: 25px;
 }
@@ -189,6 +190,7 @@ border: 1px solid var(--header-border-color);
 	min-width: 200px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	text-align: center;
+	border: 0px;
 }
 .hero-button:hover {
 	background-color: var(--hero-button-hover);
@@ -213,6 +215,10 @@ border: 1px solid var(--header-border-color);
 	gap: 30px;
 }
 
+.features-item-flex {
+	flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
 .features-content {
 	font-size: 14px;
 	line-height: 1.7;
@@ -221,6 +227,10 @@ border: 1px solid var(--header-border-color);
 
 
 /* -------ЧЕМ МЫ ЗАНИМАЕМСЯ------- */
+.activity {
+	padding-top: 0px;
+}
+
 .activity-title {
 	font-size: 36px;
 	line-height: 1.16;
@@ -275,12 +285,16 @@ padding-left: 0px;
 	letter-spacing: 0.03em;
 	color: var(--second-color);
 
-	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.team-name-box {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .team-job-title {
-	margin-top: 10px;
-	margin-bottom: 30px;
+	
 }
 
 /* -------FOOTER------- */
@@ -295,6 +309,7 @@ padding-left: 0px;
 }
 .footer-list {
 	padding-left: 0px;
+	
 }
 
 .footer-logo {
@@ -328,7 +343,13 @@ padding-left: 0px;
 	color: var(--additional-color);
 
 	display: inline-block;
+}
+
+.footer-item {
 	margin-bottom: 9px;
+}
+.footer-item:last-child {
+	margin-bottom: 0px;
 }
 
 .adres-link:focus {
@@ -358,7 +379,7 @@ padding-left: 0px;
 
 .footer-mail {
 	display: inline-block;
-	margin-bottom: 9px;
+
 }
 
 .footer-list:hover {
@@ -391,10 +412,13 @@ padding: 6px 22px;
 	padding: 0px;
 }
 
+
 .accent-btn {
 	background-color: var(--accent-color);
-	width: 73px
+	color: var(--additional-color);
+	width: 73px;
 }
+
 
 .portfolio-btn
 :hover,
@@ -417,25 +441,31 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--second-color);
-margin-left: 24px;
+
+margin-bottom: 4px;
 }
 
 .work-imeges {
-margin-bottom: 10px;
+
+}
+.work-box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 24px;
+	/* padding-right: 24px; */
+	border: 1px solid var(--portfolio-border-color);
 }
 
 .works-text {
 	font-size: 16px;
 	line-height: 1.9;
 	letter-spacing: 0.03em;
-	margin-left: 24px;
-	margin-bottom: 20px;
 }
 .work-item {
 background: var(--additional-color);
-border: 1px solid var(--portfolio-border-color);
 
-flex-basis: calc((100% - 60px) / 3);
+
+flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 /* скрывает заголовок */
